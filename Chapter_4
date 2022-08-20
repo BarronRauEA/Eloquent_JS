@@ -1,0 +1,27 @@
+function range(start, end) {
+  let r = [];
+  for (let index = start; index < (end + 1); index++) {
+    r.push(index);
+  }
+  return r;
+}
+
+
+function sum(numbers) {
+  let r = 0;
+  for (let num of numbers) {
+    r += num;
+  }
+  return r;
+}
+
+
+function reverseArray(array0) {
+  let array1 = [];
+  for (let a in array0) {
+    array1.unshift(array0[a]);
+  }
+  return array1;
+}
+
+
